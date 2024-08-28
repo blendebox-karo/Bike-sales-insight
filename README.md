@@ -7,6 +7,8 @@ The goal is to identify the ideal customer for a bike shop. To accomplish this, 
 ## Setup
 To start the project, data cleaning was performed to ensure accurate analysis. This included the removal of duplicate entries in the dataset, adding an extra column for customer age brackets for better visualization. Furthermore, the data was updated to be more interpretable, such as replacing "m" and "f" with "male" and "female", and "m" and "s" with "married" and "single". Additionally, I ensured there was no missing data and that each field had the correct data type.
 
+<img width="960" alt="cleaned-bike-data" src="https://github.com/user-attachments/assets/1f700e96-c2ba-43ac-8ee2-0dbdee59a27d">
+
 These steps were essential to ensure that the data was properly formatted for analysis and would yield accurate results. We initally started with 1026 records and now we have 1000.
 
 ## Analysis
@@ -28,7 +30,12 @@ We will start by segmenting the customers based on their age brackets, gender, i
 
 I used the customer data to create pivot tables that grouped the customers based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.
 
+<img width="960" alt="data exploration using pivot tables" src="https://github.com/user-attachments/assets/8eeea1cb-ec9d-41b6-98fd-6c5738d87918">
+
+
 To make it easy to view all this information at once, I created a dashboard that displays all the charts. I also added a slicer to the dashboard, which allows users to filter the data based on different criteria. This makes it easy to identify the customer segments that are most likely to purchase a bike.
+
+<img width="435" alt="visualization dashboard" src="https://github.com/user-attachments/assets/b05f7647-4f24-4234-b284-03fc58860324">
 
 ## Key Findings
 Using the dashboard, we were able to determine the following insights:
